@@ -1,0 +1,57 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+    .sub-mobile-category__heading-icon {
+        display: block;
+    }
+    .header__search {
+        margin: 0 10px 0 20px;
+    }
+    .player {
+        width: 98%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    .header__search {
+        margin: 0 10px 0 20px;
+    }
+
+    .dashboard__header h2 {
+        max-width: 40%;
+        display: none;
+        
+    }
+    
+    .dashboard__header h4 {
+        display: none;
+        
+    }
+
+    .cd {
+        width: 50px ;
+    }
+
+    .roll-volume {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css"> 
+    
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.css">
+    <title>Music</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+                <div class="grid wide">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list hide-on-mobile-tablet">
+                            <li class="header__navbar-items">
+                                <a href="" class="header__navbar-items-main">Home</a>
+                            </li>
+                            <li class="header__navbar-items">
+                                <a href="" class="header__navbar-items-main">Top Trend</a>
+                            </li>
+                            <li class="header__navbar-items">
+                                <a href="" class="header__navbar-items-main">Library</a>
+                            </li>
+                        </ul>
+                        <div class="header-with-search">
+                                <label for="sub-mobile-category-checkbox" class="sub-mobile-category__heading-icon">
+                                    <i class="sub-mobile-category-icon fas fa-bars"></i>
+                                </label>
+                                <nav class="sub-mobile-category">
+                                    <ul class="sub-mobile-category-list">
+                                        <li class="sub-mobile-category-item sub-mobile-category-item--active">
+                                            <a href="" class="sub-mobile-category-item__link">Home
+                                            </a>
+                
+                                         </li>
+                                        <li class="sub-mobile-category-item sub-mobile-category-item--active">
+                                             
+                                            <a href="" class="sub-mobile-category-item__link">Top trending
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                            </a>
+                                         </li>
+                     
+                                         <li class="sub-mobile-category-item">
+                                             <a href="" class="sub-mobile-category-item__link">Library
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                             </a>
+                                          </li>
+                     
+                                          <li class="sub-mobile-category-item">
+                                             <a href="" class="sub-mobile-category-item__link">Likes
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                             </a>
+                                          </li>
+                                         <li class="sub-mobile-category-item">
+                                            <a href="" class="sub-mobile-category-item__link">Thông báo
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                            </a>
+                                            
+                                         </li>
+                
+                                         <li class="sub-mobile-category-item">
+                                            <a href="" class="sub-mobile-category-item__link">Tin tức
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                            </a>
+                                            
+                                         </li>
+                
+                                         <li class="sub-mobile-category-item">
+                                            <a href="" class="sub-mobile-category-item__link">Sign out
+                                                <i class="sub-mobile-category-item__link-icon fas fa-chevron-right"></i>
+                                            </a>
+                                         </li>
+                                    </ul>
+                                </nav>
+                                <div class="header__search">
+                                    <div class="header__search-input-wrap">
+                                        <input type="text" class="header__search-input" placeholder="Nhập tên bài hát">
+                                        <div class="header__search-history">
+                                            <h3 class="header__search-history-heading">Từ khóa liên quan</h3>
+                                            <ul class="header__search-history-list">
+                                                <li class="header__search-item">
+                                                    <a href="">US/UK</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="">Top nhạc Việt</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="">Top 100 bài hát hay nhất</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <button class="header__search-selection-btn">
+                                        <i class="header__search-icon fas fa-search"></i>
+                                    </button>
+                                </div>  
+                        </div>
+
+                        <ul class="header__navbar-list hide-on-mobile">
+                            <li class="header__navbar-items header__navbar-items--appear_notify">
+                                <a href="" class="header__navbar-items-notifi">
+                                   <i class="header__navbar-i fas fa-bell"></i>
+                                    Thông báo</a>
+                               <div class="header__notify">
+                                   <header class="header__notify-header">
+                                       <h3>Thông báo mới nhận</h3>
+                                   </header>
+                                   <ul class="header__notify-list">
+                                       <img class="header__notify--no_message" src="./assets/img/no_message.webp" alt="">
+                                   </ul>
+                                   <div class="header__notify-footer">
+                                       <a href="" class="header__notify-footer-btn">
+                                           Xem tất cả
+                                       </a>
+           
+                                   </div>
+                               </div>     
+                            </li>
+                            <li class="header__navbar-items hide-on-tablet">
+                                <a href="" class="header__navbar-items-help">
+                                   <i class="header__navbar-i fas fa-question-circle"></i>
+                                    Trợ giúp
+                                   </a>
+                            </li>
+                            <!-- <li class="header__navbar-items header__navbar-items--bold header__navbar-items--separator">Đăng ký</li>
+                            <li class="header__navbar-items header__navbar-items--bold">Đăng nhập</li> -->
+                            <li class="header__navbar-items header__navbar-user">
+                                <img src="./assets/img/avatar.jpg" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-user-name">Chí Nguyên</span>
+           
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item"><a class="header__navbar-user-item-choice_0" href="">Profile</a></li>
+                                    <li class="header__navbar-user-item"><a class="header__navbar-user-item-choice_1" href="">Likes</a></li>
+                                    <li class="header__navbar-user-item"><a class="header__navbar-user-item-choice_2" href="">Who to follow</a></li>
+                                    <li class="header__navbar-user-item"><a class="header__navbar-user-item-choice_3" href="">Sign Out</a></li>
+                                </ul>
+                            </li>
+            
+                        </ul>
+                    </nav>
+                        
+                        
+                </div>
+        </header>  
+         <!-- Playlist -->
+            
+        <div class="player">
+            <!-- Dashboard -->
+            <div class="dashboard">
+              <!-- Header -->
+              <header class="dashboard__header">
+                <h4>Now playing</h4><h2>String 57th & 9th</h2>
+              </header>
+          
+              <!-- CD -->
+              <div class="cd">
+                <div class="cd-thumb">
+                </div>
+              </div>
+              <!-- Control -->
+              <div class="control">
+                <div class="btn btn-repeat">
+                  <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                  <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                  <i class="fas fa-pause icon-pause"></i>
+                  <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                  <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                  <i class="fas fa-random"></i>
+                </div>
+               
+              </div>
+              <div class="btn roll-volume">
+                <i class="fas fa-volume-up"></i>
+                <input id="progress-volume" class="progress-volume" type="range" value="100" step="1" min="0" max="100">
+               </div>
+               <div class="header__progress">
+                   <span class="header__progress-currentTime">
+                       
+                   </span>
+                   <span class="header__progress-duration">
+                    
+                    </span>
+                   
+                   <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+               </div>
+          
+              <audio id="audio" src=""></audio>
+            </div>
+          
+           
+
+          </div>
+          <div class="playlist">
+            <div class="grid wide">
+                <div class="playlist-main row sm-gutter">    
+
+                </div>
+    
+            </div>
+            
+        </div>
+
+
+        
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
